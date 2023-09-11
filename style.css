@@ -1,0 +1,157 @@
+.logo img{
+    width: 200px;
+}
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-center{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.navbar-center a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    padding: 10px;
+
+}
+.cart{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart img{
+    width: 1.3vw;
+}
+.navbar-toggler{
+    display: none;
+}
+.header-top{
+    align-items: center;
+    height: 40px;
+}
+.btn button{
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.row-1-img img{
+    width: 25vw;
+}
+.card-btn{
+    color: white;
+}
+.sliding{
+    display: flex;
+    justify-content: center;
+    background-color:#ebf4f5;
+}
+
+.carousel-1{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+.border-line{
+    border-top: 2px solid black;
+}
+.videos video{
+    object-fit: cover;
+    width: 15vw;
+    height: 30vw;
+}
+.border-line-bottom{
+    border-bottom: 2px solid black;
+}
+.PROGRAM{
+    height:300px;
+}
+.program-img{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    
+}
+.program-img button{
+    background-color :green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 33px;
+}
+.input-btn{
+    display: flex;
+    justify-content: center;
+}
+#input-box {
+    width: 330px;
+    height: 50px;
+    border: .1px solid black;
+}
+#input-box img{
+    width: 30px;
+    height: 30px;
+}
+#text ul{
+    list-style: none;
+}
+#talk{
+    height: 150px;
+}
+
+@media(max-width:1200px){
+    .navbar-toggler{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .navbar-center{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .column-3{
+        display: none;
+    }
+    .row-1-img img{
+        width: 40vw;
+
+    }
+    .videos video{
+        object-fit: cover;
+        width: 37vw;
+        height: 50vw;
+        padding: 2vw;
+    }
+    .best-bike img{
+        width: 80vw;
+    }
+    .bike-outline{
+        margin-top: 300px;
+    }
+}
+@media(max-width:576px){
+    .row-1-img img{
+        width: 32vw;
+
+    }
+    .videos video{
+        object-fit: cover;
+        width: 42vw;
+        height: 58vw;
+        padding: 2vw;
+    }
+}
+@media (max-width:991px) {
+    #carouselExampleSlidesOnly{
+        width: 70vw;
+    }
+    #subscribe{
+        margin-top: 30vw;
+    }
+}
